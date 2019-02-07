@@ -18,17 +18,17 @@ sh adv.sh
 
 #### Visualizations of Adversarial Examples
 
-<p align="center"><img src="Images/1.png" height="100"> <img src="Images/2.png" height="100> <img src="Images/3.png" height="100"> <img src="Images/4.png" height="100"></p>
+<p align="left"><img src="Images/1.png" width="180"> <img src="Images/2.png" width="180"> <img src="Images/3.png" width="180"> <img src="Images/4.png" width="180"></p>
 
 #### Visualizations of Ranking List
 <p align="left">
-<img src="Images/untarget_illustration-crop-1.png" alt="Non-targeted Attack" width="600px">
+<img src="Images/untarget_illustration-crop-1.png" alt="Non-targeted Attack" width="720px">
 </p>
 
 The ranking list of non-targeted attack.
 
 <p align="left">
-<img src="Images/target_illustration_cropped-1.png" alt="Targeted Attack" width="600px">
+<img src="Images/target_illustration_cropped-1.png" alt="Targeted Attack" width="720px">
 </p>
 
 The ranking list of targeted attack.
