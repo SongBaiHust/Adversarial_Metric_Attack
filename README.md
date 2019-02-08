@@ -29,7 +29,7 @@ python evaluate_adv.py \
  --loss_type=soft \
  --name=resnet_50
 ```
-Shell in one trial
+Shell in one trial. We support three attacking methods, including FGSM, I-FGSM and MI-FGSM.
 
 ```bash
 sh adv.sh
