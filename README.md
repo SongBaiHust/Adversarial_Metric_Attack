@@ -11,6 +11,26 @@ This repository contains the code of the paper [Adversarial Metric Attack for Pe
 
 ### How to Run
 
+**Attack**. For example, attack a ResNet-50 model trained with cross-entropy loss
+
+```Shell
+python Gen_Adv.py \
+ --loss_type=soft \
+ --name=resnet_50 \
+ --save_img \
+ --save_fea
+```
+It will save the adversarial images and features.
+
+**Test**.
+
+```Shell
+python evaluate_adv.py \
+ --loss_type=soft \
+ --name=resnet_50
+```
+Shell in one trial
+
 ```bash
 sh adv.sh
 ```
@@ -18,7 +38,7 @@ sh adv.sh
 
 #### Visualizations of Adversarial Examples
 
-<p align="left"><img src="Images/1.png" width="180"> <img src="Images/2.png" width="180"> <img src="Images/3.png" width="180"> <img src="Images/4.png" width="180"></p>
+<p align="left"><img src="Images/1.png" width="176"> <img src="Images/2.png" width="176"> <img src="Images/3.png" width="176"> <img src="Images/4.png" width="176"></p>
 
 #### Visualizations of Ranking List
 <p align="left">
