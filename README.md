@@ -64,7 +64,7 @@ If you find the code useful, please cite the following paper
       year={2019}
     }
 
-If you encounter any problems or have any inquiries, please contact songbai.site@gmail.com or songbai.robots@ox.ac.uk
+If you encounter any problems or have any inquiries, please contact songbai.site@gmail.com or songbai@robots.ox.ac.uk
 
 
 
